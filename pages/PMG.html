@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Semih Orhan - PMG</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="../assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+
+				<!-- To Home -->
+				<a href="../index.html" class="logo">
+					<span class="symbol"><img src="../images/HomeBackArrow.png" alt="" /></span><span
+						class="title">Home</span>
+				</a>
+
+			</div>
+		</header>
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+				<h1>Perfect Maze Generator</h1>
+				<span class="image main"><img src="../images/PMG.png" alt="" /></span>
+				<h2>Context</h2>
+				<p>
+					In my search for an intership I e-mailed many companies. One of these companies wanted
+					me to complete a test before I could come for the interview. The assignment was to create
+					a perfect maze generator using any algorithm I wanted. A perfect maze is defined as having
+					no loops and no inaccessible areas. Any two points are connected by a singular unbroken path.
+				</p>
+				<h2>Execution</h2>
+				<p>
+					I finished this project in about a week and included 3 algorithms the user can choose from.
+					I also added a lot of other customization like maze colors, size and generation speed. A
+					problem I encountered when making this is that the performance really isn't great. I had to
+					limit the maze size to 50x50 because things really started to slow down after that. I think
+					the main reason for this is that all the maze cells and walls are individual UI objects. If
+					I remember correctly the whole canvas is redrawn every time a single element under that canvas
+					changes. With 50x50 maze that will be 12,500 elements, however I never made a GameObject version
+					so this is all just speculation.
+				</p>
+				<h2>Updates</h2>
+				<p>
+					In the first semester of the 2019-2020 schoolyear I learned about the SOLID principles. An
+					assignment we had was to choose any project and improve the code by applying the SOLID principles.
+					For this assingment I chose this project because there was quite a lot of improvement I could make.
+					These improvements came from the feedback I got at the interview with the company and also from
+					learning about the SOLID principles. You can compare these changes by looking at the project before
+					the changes I made on <a
+						href="https://github.com/Smehi/Perfect-Maze-Gen/tree/fa11c55e36d8f092e448d48e6cdcb7b7c9b16906">2019-09-21</a>.
+				</p>
+				<ul class="actions fit small">
+					<li>
+						<a class="button primary fit small" href="https://github.com/Smehi/Perfect-Maze-Gen">Source</a>
+					</li>
+					<li>
+						<a class="button primary fit small"
+							href="https://github.com/Smehi/Perfect-Maze-Gen/releases/download/v0.5.0/PMG.v0.5.0.zip">Download
+							release</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<section>
+					<h2>Contact</h2>
+					<ul class="icons">
+						<li><a href="https://twitter.com/SmehiLmao" class="icon brands style2 fa-twitter"><span
+									class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/Smehi" class="icon brands style2 fa-github"><span
+									class="label">GitHub</span></a></li>
+						<li><a href="https://gitlab.com/Smehi" class="icon brands style2 fa-gitlab"><span
+									class="label">GitLab</span></a></li>
+						<li><a href="mailto:semih99orhan@gmail.com" class="icon solid style2 fa-envelope"><span
+									class="label">Email</span></a></li>
+					</ul>
+				</section>
+				<ul class="copyright">
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/browser.min.js"></script>
+	<script src="../assets/js/breakpoints.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
